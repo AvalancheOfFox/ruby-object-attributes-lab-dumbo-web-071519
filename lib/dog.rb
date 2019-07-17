@@ -12,4 +12,8 @@ class Dog
     @breed = input
   end
   
+  def breed=(breedName)
+    @breed = breedName
+  end
+  
 end
